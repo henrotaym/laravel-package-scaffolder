@@ -1,6 +1,5 @@
 {
     "name": "{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}}",
-    "version": "0.0.0",
     "description": "{{{{description}}}}",
     "keywords": [
         "{{{{slugOrganizationName}}}}",
