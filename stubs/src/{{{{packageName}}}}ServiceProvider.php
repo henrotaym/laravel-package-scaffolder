@@ -15,7 +15,7 @@ class {{{{packageName}}}}ServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('{{{{slugPackageName}}}}')
-            ->hasConfigFile()
+            ->hasConfigFile('{{{{slugPackageName}}}}')
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile();
