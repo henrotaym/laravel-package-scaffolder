@@ -1,5 +1,11 @@
 # @henrotaym/laravel-package-scaffolder
 
+## 0.0.3
+
+### Patch Changes
+
+- 07d09b6: Typo in scaffolded package readme.
+
 ## 0.0.2
 
 ### Patch Changes
