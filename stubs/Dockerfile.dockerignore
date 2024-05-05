@@ -1,0 +1,10 @@
+.changeset
+.github
+.phpunit.cache
+node_modules
+build
+vendor
+.env
+cli
+scripts
+

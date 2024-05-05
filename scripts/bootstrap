@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./scripts/set_env && \
+docker compose build && \
+./cli bun install

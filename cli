@@ -1,0 +1,32 @@
+#!/bin/bash
+if [ "$1" == "bootstrap" ]
+    then 
+        ./scripts/bootstrap
+    exit 0
+fi
+
+if [ "$1" == "start" ]
+    then
+        ./scripts/start $2
+    exit 0
+fi
+
+if [ "$1" == "stop" ]
+    then 
+        ./scripts/stop
+    exit 0
+fi
+
+if [ "$1" == "restart" ]
+    then 
+        ./scripts/restart $2
+    exit 0
+fi
+
+if [ "$1" == "bun" ]
+    then 
+        docker compose run --rm -it bun $@
+    exit 0
+fi
+
+docker compose run --rm -it cli $@

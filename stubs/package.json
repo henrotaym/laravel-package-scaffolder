@@ -1,0 +1,13 @@
+{
+  "name": "@{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}}",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@evilmartians/lefthook": "^1.6.10"
+  }
+}

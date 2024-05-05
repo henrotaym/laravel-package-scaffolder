@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./scripts/set_env && \
+docker compose up
