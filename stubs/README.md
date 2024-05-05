@@ -1,16 +1,14 @@
 # {{{{description}}}}
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}.svg?style=flat-square)](https://packagist.org/packages/{{{{slugPackageName}}}}/{{{{slugPackageName}}}})
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/{{{{slugPackageName}}}}/{{{{slugPackageName}}}}.svg?style=flat-square)](https://packagist.org/packages/{{{{slugPackageName}}}}/{{{{slugPackageName}}}})
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}}.svg?style=flat-square)](https://packagist.org/packages/{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}})
+[![Total Downloads](https://img.shields.io/packagist/dt/{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}}.svg?style=flat-square)](https://packagist.org/packages/{{{{slugOrganizationName}}}}/{{{{slugPackageName}}}})
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require {{{{slugPackageName}}}}/{{{{slugPackageName}}}}
+composer require {{{{slugOrganizationName}}}}/{{{{slugPackageName}}}}
 ```
 
 You can install package with:
