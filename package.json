@@ -1,6 +1,6 @@
 {
   "name": "@henrotaym/laravel-package-scaffolder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "laravel-package-scaffolder",
   "files": [
     "dist",
